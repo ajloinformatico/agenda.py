@@ -1,0 +1,33 @@
+Ejercicio 8.1
+Desarrollar un programa en Python para gestionar (CRUD) una agenda
+de contactos telefónicos:
+
+- La base de datos ‘agenda’ consiste en una sola tabla ‘contactos’ HECHO !!!
+con las columnas ‘nombre’ y ‘telefono’ de tipo VARCHAR
+(la longitud se deja a vuestro criterio)
+
+- El programa solicitará al usuario una orden de las siguientes
+(subrayados los valores variables) :
+    + fin: Salir del programa HECHO!!
+    + consulta: Solicita un texto y muestra la lista de los contactos que contengan el texto introducido +
+    consulta texto: Muestra la lista de los contactos que contengan el texto introducido
+    + alta: Solicita nombre y teléfono y da de alta un contacto con los valores introducidos HECHO!!
+    + alta nombre: Solicita un teléfono y da de alta un contacto con los valores introducidos HECHO !!
+    + borra nombre: Borra el contacto identificado por nombre HECHO !!
+    + modifica nombre: Modifica el teléfono del contacto identificado por nombre HECHO !!!
+
+CONTROL DE ERRORES
+
+- PASSWORD Y CONEXION HECHO !!!
+- INFORMACION DE LA ACCION !!!
+- NOMBRE UNICOS HECHO!!!
+- CONTROL DEL TELEFONO HECHO!!!
+- AVISAR SI SE MODIFICA O BORRA UN NOMBRE QUE NO EXISTE HECHO !!!
+
+- El ejecutar cada orden se debe controlar la introducción de los valores.
+Por ejemplo, debe informar si se intenta borrar o modificar un
+nombre inexistente, no debe permitir dar de alta contactos con
+nombre ya registrado, debe evitar que se introduzcan caracteres
+no numéricos en el teléfono, etc.
+
+-incluir la base de datos HECHO!!!

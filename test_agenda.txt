@@ -1,0 +1,47 @@
+Antes de nada se deben introducirse el nombre y contraseña de la base de datos agenda.
+
+
+test_conexion() --> COMPLETADO
+COMPRUEBA QUE LA CONEXION CON LA BASE DE DATOS Y EL INICIO DE SESION EN EL PROGRAMA ES CORRECTO
+-comprueba conexion con usuario y contraseña erroneas devuelve False HECHO!!!
+-compruena conexion con usuario y contraseña correcta funciona HECHO!!!
+
+test_crea_una_lista_simple --> COMPLETADO
+COMPRUEBA QUE SE INSERTAN CORRECTAMENTE LOS DATOS DE LOS 5 REGISTROS CON LOS QUE TRABAJA EL TEST
+- comprueba que se han introducido correctamente los 5 regiustros HECHO!!!
+
+test_vacia_agenda --> COMPLETADO
+COMPRUEBA SI SE DEJA VACIA LA AGENDA
+- comprueba si no existen registros en la tabla contactos HECHO!!!
+
+test_comprueba_contacto(): --> COMPLETADO
+COMPRUEBA QUE EL USUARIO EXISTA EN LA AGENSA
+- comprueba que Pepe no existe devolviendo False HECHO!!
+- comprueba que Juan si existe devolviendo True HECHO !!!
+
+test_agrega_contacto() -->  COMPLETADO
+COMPRUEBA QUE SE AGREGA CORRECTAMENTE LOS CONTACTOS EN LA BASE DE DATOS
+comprueba que se agrega correctamente el contacto
+
+test_es_numero() --> COMPLETADO
+COMPRUEBA LAS ENTRADAS DE NUMEROS DE TELEFONO
+- comprueba la entrada de una numero demasiado grande devuelve False HECHO!!!
+- comprueba la entrada de un numero que no es un numero devuelve False HECHO !!!
+- comprueba la entrada de un numero correcto es correcto devolviendo True HECHO !!!
+
+test_modifica_contacto() --> COMPLETADO
+- comprueba el telefono de Juan antes de modificarlo HECHO !!!
+- modifica y comprueba que el telefono de juan esta modificado HECHO !!!
+- compara el telefono antiduo y nuevo de juan para comprobar que se han modificado HECHO!!!
+
+test_elimina_contacto() --> COMPLETADO
+- comprueba el registro de pepe antes de eliminarlo devolviendo True HECHO !!
+- elimina el registro de pepe y comprueba que no existe devolviendo False HECHO !!!
+
+def test_agrega_contacto(): --> COMPLETADO
+- comprueba que un usuario elena no está en ingun registro devolviendo False HECHO !!!
+- agrega el contacto de elena a la tabla de contactos y comprueba que si existe su registro devolviendo TRUE HECHO !!!
+
+
+
+
