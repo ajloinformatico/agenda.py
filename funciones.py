@@ -1,6 +1,4 @@
-"""Archivo contiene todas las funciones del programa
-Le he agregado true y false para la posterior realizacion de
-los test"""
+"""Archivo contiene todas las funciones del programa"""
 
 import pymysql
 def crea_lista_simple(conexion):
